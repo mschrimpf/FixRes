@@ -17,6 +17,6 @@ setup(
     version="1.0",
     description="Script of models from https://arxiv.org/abs/1906.06423",
     author="Facebook AI Research",
-    packages=['fixres'],
+    packages=find_packages(['fixres']),
     install_requires=requirements,
 )
